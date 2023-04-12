@@ -4,6 +4,8 @@ import { ContentLeft, Content, Sidebar, Theme, Wrap } from './components/theme/s
 import Menu from './components/menu';
 import Link from 'next/link';
 import Head from 'next/head';
+import { Container, Row } from './components/grids/style';
+
 const Home: React.FC = () => {
   return (
     <Theme>
@@ -35,10 +37,14 @@ const Home: React.FC = () => {
           </ul>
         </Sidebar>
         <Content>
-          
+          <Container>
+            <Row>
+              <div className="col-12"></div>
+            </Row>
+          </Container>
         </Content>
         <ContentLeft>
-
+          <h2>Parceiros</h2>
         </ContentLeft>
       </Wrap>
     </Theme>
