@@ -20,6 +20,9 @@ const Sidebar = styled.div`
     background-color: #fff;
     border: 1px solid #3333332b;
     padding: 10px;
+    h2{
+        margin-top: 10px;
+    }
     .categorias_links{
         display: flex;
         flex-direction: column;
